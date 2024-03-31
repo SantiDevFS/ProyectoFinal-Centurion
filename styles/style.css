@@ -1,0 +1,267 @@
+:root { 
+    --fuenteTitulos: 'Rubik', sans-serif;
+    --fuenteParrafos: 'Open Sans', sans-serif;
+
+    --primario: #30BCED;
+    --blanco: #FAF0CA;
+    --negro: #050401; 
+    --alternativa: #F0803C;
+
+}
+*{
+margin: 0px;
+padding: 0px;
+}
+html { 
+    -webkit-text-size-adjust: 100%;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none; 
+}
+a{
+    font-family: var(--fuenteTitulos);
+    font-weight: small;
+    color: white;
+}
+.logo_nombre { 
+    display: inline;
+    font-family: var(--fuenteTitulos);
+    font-weight: 100;
+    color: white;
+}
+.nombre_bold { 
+    font-weight: 900;
+    color: #050401;
+}
+
+.header_presentacion { 
+    justify-content: center;
+    text-align: center;
+}
+
+
+.barra { 
+    background-color: var(--alternativa);
+    display:flex;
+    max-height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    max-width: 100%;
+}
+.contenedor { 
+    max-width: auto;
+}
+.separador {
+    margin: 0 20px;
+    border-left: 1px solid #333;
+    height: 20px;
+}
+
+@media (max-width: 768px){
+    .barra { 
+        display:list-item;
+    }
+}
+
+
+.imgfondo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../assets/img/coding-1853305_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: -1;
+    filter:brightness(0.3) /* Sombra */
+}
+
+.front{
+    font-family: var(--fuenteParrafos);
+    color:var(--alternativa);
+    margin-top: auto;
+    padding-top: 90px;
+
+}
+
+.nombre{
+    font-family: var(--fuenteTitulos);
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    padding-top: 35px;
+    -webkit-text-stroke: 1.5px #050401 ;
+}
+.descripcion { 
+    font-family: var(--fuenteParrafos);
+    font-size: 1rem;
+    color: var(--alternativa);
+    font-weight: 3rem;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    
+}
+.redes {
+    width: 30px; /* ajusta el ancho según sea necesario */
+    height: 30px; /* ajusta la altura según sea necesario */
+    margin: 15px;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--negro);
+    color: white;
+    text-align: center;
+    padding: 5px 2;
+    font-family: var(--fuenteParrafos);
+    font-size: 10px;
+}
+/* sobre mi */ 
+
+.imgpresentacion { 
+    width: 300px;    
+    height:300px;
+    border-radius: 50%;
+    margin-left: 150px;
+    grid-area: imagen;
+    
+}
+
+.titulosm { 
+    grid-area: titulo;
+
+}
+
+.descripcion {
+    font-family: var(--fuenteParrafos);
+    justify-items: flex-start;
+    color: #FAF0CA;
+    margin-left: 20px;
+    padding-bottom: 100px;
+    grid-area: descripcion;
+}
+.presentacion { 
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "titulo titulo"
+    "imagen descripcion";
+    row-gap: 50px;
+}
+
+/* Estilos para las cajas */
+.cajas {
+    display: flex; /* Usa flexbox para alinear las cajas */
+    justify-content: center; /* Centra horizontalmente las cajas dentro de su contenedor */
+    margin-top: 80px;
+}
+
+.caja {
+    margin: 0 10px; /* Espacio entre las cajas */
+}
+
+.caja img {
+    max-width: 40%; /* Asegura que las imágenes no excedan su contenedor */
+    height: auto;
+}
+
+.imgdescripcion { 
+    font-family: var(--fuenteTitulos);
+    font-weight: 500;
+    color: white;
+}
+
+/* Contactos */
+.formulario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-contenedor {
+    width: 50%;
+}
+
+.grupo-formulario {
+    margin-bottom: 20px;
+    font-family: var(--fuenteParrafos);
+    color: white;
+    font-weight: 800;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--alternativa);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-container {
+    width: 45%;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Proyectos */ 
+.contenedor-proyectos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.project-box {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid var(--alternativa);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.project-box img {
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.project-box h3 {
+    margin-top: 10px;
+}
