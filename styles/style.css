@@ -66,6 +66,7 @@ main {
 .main_presentacion { 
     justify-content: center;
     text-align: center;
+    padding: 50px;
 }
 
 .front{
@@ -116,12 +117,6 @@ main {
 
 
 /* sobre mi */ 
-
-.header_presentacion {
-
-    padding: 50px;
-}
-
 .imgpresentacion {
     width: 100%;
     max-width: 300px;
