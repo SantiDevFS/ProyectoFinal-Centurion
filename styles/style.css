@@ -82,7 +82,7 @@ main {
     font-size: 5rem;
     font-weight: 900;
     color: white;
-    padding: 55px;
+    padding: 50px;
     -webkit-text-stroke: 1.5px #050401 ;
 }
 .descripcion { 
@@ -140,21 +140,7 @@ main {
     margin-left: 20px;
 }
 
-/* Estilos para las cajas */
-.cajas {
-    display: flex; /* Usa flexbox para alinear las cajas */
-    justify-content: center; /* Centra horizontalmente las cajas dentro de su contenedor */
-    margin-top: 80px;
-}
-
-.caja {
-    margin: 0 10px; /* Espacio entre las cajas */
-}
-
-.caja img {
-    max-width: 40%; /* Asegura que las imágenes no excedan su contenedor */
-    height: auto;
-}
+/* Estilo para las caja */
 
 .imgdescripcion { 
     font-family: var(--fuenteTitulos);

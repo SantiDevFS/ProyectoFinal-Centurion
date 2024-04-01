@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Inicia BS 5.3v -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Finaliza BS 5.3v-->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -48,23 +50,30 @@
     </header>
     <main class="bg-image">
         <div class="main_presentacion text-center text-wrap">
-            <h1 class="nombre container text-center ">Habilidades</h1>
-            <div class="cajas row align-items-start">
-                <div class="caja col">
-                    <img src="../assets/img/html-5-svgrepo-com.svg" alt="Descripción de la imagen 1">
+            <h1 class="nombre container text-center">Habilidades</h1>
+            <div class="owl-carousel owl-theme" id="carouselHabilidades">
+                <div class="item">
+                    <img src="../assets/img/html-5-svgrepo-com.svg" alt="HTML">
                     <p class="imgdescripcion">HTML</p>
-                    </div>
-                    <div class="caja col">
-                        <img src="../assets/img/css-3-svgrepo-com.svg" alt="Descripción de la imagen 2">
-                        <p class="imgdescripcion">CSS</p>
-                    </div>
-                    <div class="caja col">
-                        <img src="../assets/img/js-svgrepo-com.svg" alt="Descripción de la imagen 3">
-                        <p class="imgdescripcion">Javascript</p>
-                    </div>
-                <div class="caja">
+                </div>
+                <div class="item">
+                    <img src="../assets/img/css-3-svgrepo-com.svg" alt="CSS">
+                    <p class="imgdescripcion">CSS</p>
+                </div>
+                <div class="item">
+                    <img src="../assets/img/js-svgrepo-com.svg" alt="Javascript">
+                    <p class="imgdescripcion">Javascript</p>
+                </div>
+                <div class="item">
+                    <img src="../assets/iconos/git-svgrepo-com.svg" alt="Git">
+                    <p class="imgdescripcion">Git</p>
+                </div>
+                <div class="item">
+                    <img src="../assets/iconos/github-logo-svgrepo-com.svg" alt="GitHub">
+                    <p class="imgdescripcion">GitHub</p>
+                </div>
             </div>
-        </div>
+        </div>        
     </main>
         
     <footer class="footer">
@@ -77,5 +86,30 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 <!--Finaliza BS Popper 5.6v -->
+<!--Inicia Carrousel -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('#carouselHabilidades').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        });
+    });
+</script>
+<!--Finaliza Carrousel -->
+
 </body>
 </html>
