@@ -158,7 +158,25 @@ main {
     width: 80%;
     margin: 0 auto;
 }
+@media (max-width: 767px) {
+    .formulario {
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+    .form-contenedor {
+        width: 100%;
+        text-align: center; 
+    }
 
+    .grupo-formulario {
+        width: 100%;
+    }
+    .image-container {
+        display: none;
+    }
+}
 .form-contenedor {
     width: 50%;
 }
