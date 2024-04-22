@@ -1,0 +1,26 @@
+
+@keyframes entrada-izquierda {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes entrada-derecha {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.front {
+    animation: entrada-izquierda 1s ease forwards;
+}
+
+.nombre {
+    animation: entrada-derecha 1s ease forwards;
+}

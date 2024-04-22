@@ -335,18 +335,6 @@ button {
   height: auto;
 }
 
-/* Contenido del index */
-.iconos {
-  display: flex;
-  justify-content: center;
-}
-
-.redes {
-  width: 70px; /* ajusta el ancho según sea necesario */
-  height: 70px; /* ajusta la altura según sea necesario */
-  margin: 15px;
-}
-
 @keyframes entrada-izquierda {
   from {
     transform: translateX(-100%);
@@ -369,6 +357,18 @@ button {
 
 .nombre {
   animation: entrada-derecha 1s ease forwards;
+}
+
+/* Contenido del index */
+.iconos {
+  display: flex;
+  justify-content: center;
+}
+
+.redes {
+  width: 70px; /* ajusta el ancho según sea necesario */
+  height: 70px; /* ajusta la altura según sea necesario */
+  margin: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

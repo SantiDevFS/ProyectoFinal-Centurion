@@ -4,6 +4,7 @@
 @import "_sobremi";
 @import "_proyectos";
 @import "_contactos";
+@import "_principal";
 
 /* Contenido del index */ 
 .iconos {
@@ -15,29 +16,4 @@
     width: 70px; /* ajusta el ancho según sea necesario */
     height: 70px; /* ajusta la altura según sea necesario */
     margin: 15px;
-}
-@keyframes entrada-izquierda {
-    from {
-        transform: translateX(-100%);
-    }
-    to {
-        transform: translateX(0);
-    }
-}
-
-@keyframes entrada-derecha {
-    from {
-        transform: translateX(100%);
-    }
-    to {
-        transform: translateX(0);
-    }
-}
-
-.front {
-    animation: entrada-izquierda 1s ease forwards;
-}
-
-.nombre {
-    animation: entrada-derecha 1s ease forwards;
 }
