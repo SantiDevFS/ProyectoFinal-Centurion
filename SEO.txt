@@ -1,0 +1,24 @@
+META-KEYWORDS y DESCRIPTION para index.html 
+
+description = Desarrollador FrontEnd apasionado por la creación de experiencias digitales impactantes. Experto en tecnologías web como HTML, CSS, JavaScript y frameworks modernos. ¡Convierto ideas en realidad digital!
+keywords = HTML, CSS, Desarrollador FrontEnd, Frameworks web, Boostrap, Responsive design, proyectos web , Redes sociales, whatsapp, comunicacion
+
+META-KEYWORDS y DESCRIPTION para sobremi.html 
+
+description = Desarrollador web autodidacta con experiencia en HTML, CSS, JavaScript, y frameworks como Bootstrap. Apasionado por la innovación y la creación de experiencias digitales impactantes
+keywords = Apasionado por la tecnologia, FullStack Web Developer, Autodidacta, Creatividad, Adaptabilidad, Orientacion al detalle
+
+META-KEYWORDS y DESCRIPTION para Habilidades.html 
+
+description =Descubre mis habilidades en desarrollo web, incluyendo HTML, CSS, JavaScript, frameworks como Bootstrap, Node.js, Además, tengo experiencia en diseño responsivo, creación de interfaces intuitivas, y colaboración en equipos ágiles utilizando metodologías como Scrum
+keywords = Habilidades, Gestión de proyectos, Buenas practicas, preprocesadores, CSS3, HTML5, SASS, Git, GitHub, FrontEnd, web design, Creatividad,pensamiento inovador
+
+META-KEYWORDS y DESCRIPTION para Proyectos.html 
+
+description =Explora mi portafolio de proyectos web, donde he aplicado mis habilidades en HTML, CSS, JavaScript y frameworks como Bootstrap para crear experiencias digitales únicas y funcionales. Cada proyecto refleja mi enfoque en el diseño responsivo, la experiencia de usuario y la innovación tecnológica, demostrando mi capacidad para colaborar en proyectos reales y ofrecer soluciones creativas y efectivas.
+keywords = ecnologías web, proyectos reales, diseño responsivo, desarrllo web moderno, creatividad digital, portafolio digital, Innovación tecnológica , Bootstrap
+
+META-KEYWORDS y DESCRIPTION para contacto.html 
+
+description =¡Contáctame para discutir proyectos, oportunidades laborales o cualquier consulta que tengas! Utiliza el formulario de contacto para enviarme un mensaje directo, o conéctate a través de mis redes sociales o WhatsApp para una comunicación más rápida y directa. Estoy aquí para escucharte y ayudarte en lo que necesites.
+keywords = Formulario de contacto, mensajes, email, telefono, interaccion, contacto, redes sociales
