@@ -1,0 +1,20 @@
+@import "_general";
+@import "_barra";
+@import "_main";
+@import "_sobremi";
+@import "_proyectos";
+@import "_contactos";
+
+/* Contenido del index */ 
+.iconos {
+    display: flex;
+    justify-content: center;
+    
+}
+.redes {
+    width: 70px; /* ajusta el ancho según sea necesario */
+    height: 70px; /* ajusta la altura según sea necesario */
+    margin: 15px;
+}
+
+

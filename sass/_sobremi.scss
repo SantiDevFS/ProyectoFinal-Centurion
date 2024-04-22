@@ -1,0 +1,29 @@
+@import "_general";
+@import "_barra";
+@import "_main";
+
+
+/* sobre mi */ 
+.imgpresentacion {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 50% 50%;  /* Ajusta el valor de border-radius según tus preferencias */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.titulosm {
+    font-family: $fuenteTitulos;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.descripcion {
+    font-family: $fuenteParrafos;
+    font-size: 18px;
+    color: #FAF0CA;
+    margin-left: 20px;
+}

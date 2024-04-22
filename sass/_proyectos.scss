@@ -1,0 +1,37 @@
+
+/* Proyectos */ 
+.contenedor-proyectos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.project-box {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid $alternativa;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.project-box img {
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.project-box h3 {
+    margin-top: 10px;
+}
+.bg-color {
+    background-color: $alternativa;
+}
+
+/* Estilo para las caja */
+
+.imgdescripcion { 
+    font-family: $fuenteTitulos;
+    font-weight: 500;
+    color: white;
+}
