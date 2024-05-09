@@ -1,4 +1,4 @@
-# PreEntrega2-Centurion
+# Proyecto Final-Centurion
 Portafolio de Santiago Centurón
 Este es el repositorio del portafolio de Santiago Centurón, un desarrollador web apasionado por la creación de experiencias digitales impactantes.
 
